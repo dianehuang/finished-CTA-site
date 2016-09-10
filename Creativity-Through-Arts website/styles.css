@@ -1,0 +1,651 @@
+body {
+	background-color: #FFB75E;
+	z-index: -2;
+	overflow-x: none;
+}
+
+h2{
+	font-family: 'Lato', sans-serif;
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
+	line-height: 25px;
+}
+
+h1 {
+	font-family: 'Lato', sans-serif;
+	line-height: 45px;
+}
+
+#logo-box {
+	position: absolute;
+	left: 0;
+	top: -23px;
+
+}
+
+footer {
+	margin: 10px;
+	font-size: 15px;
+}
+
+#video{
+	width: 100%;
+	height: auto;
+}
+
+#description-title {
+	text-align: center;
+}
+
+#description {
+	text-align: center;
+}
+
+.join {
+	background-color: orange;
+	width: 100%;
+	margin-bottom: 15px;
+	padding: 10px;
+	font-size: 30px;
+}
+
+.finally {
+	font-size: 20px;
+	display: block;
+	text-align: center;
+	border: none;
+}
+
+.cool-button:hover {
+	background-color: #EE7600; 
+	border: solid 2px; 
+}
+
+.cool-button {
+	color: black;
+	background-color: #ED8F03;
+	border: none;
+	text-decoration: none;
+	padding: 10px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	border-radius: 30px;
+}
+
+.centered-items {
+	display: block;
+	text-align: center
+}
+
+#centered-item {
+	background-color: #EE7600;
+	color: black;
+	text-align: center;
+}
+
+#centered-item:hover {
+	border: solid 1px;
+}
+
+.when-hover:hover {
+	background-color: #ED8F03;
+	font-color: black;
+} 
+
+#centerino {
+	border: none;
+}
+
+#centerino:hover {
+	border: solid 1px;
+}
+
+.horizontal-lines { 
+	border: 0;
+	height: 1px; 
+	background: #333;
+	opacity: 0.5; 	
+	font-weight: 1px;
+}
+
+.fixme {
+	margin-left: 20px;
+}
+
+.border-this {
+	width: 350px;
+	height: 300px;
+	overflow: hidden;
+}
+
+.noneplz {
+	color: #000000;
+	font-size: 10px;
+}
+
+.fixit {
+	margin-left: 50px;
+}
+
+.now {
+	width: 100%;
+	z-index: 1;
+}
+
+.bobi {
+	z-index: 2;
+	position: absolute;
+	top: 17%;
+	left: 38%;
+	font-size: 60px;
+	color: #1a0d00;
+}
+
+.the-vid {
+	margin-left: 45px;
+	width: 1200px;
+	height: 675px;
+}
+
+.council-name {
+	font-size: 60px;
+}
+
+/*THESE ARE THE STYLES NOW FOR WHO=WE-ARE.HTML*/
+
+.ctaye {
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+	height: auto;
+}
+
+.title-statement {
+	width: 300px;
+	text-align: center;
+}
+
+.mission-statements {
+	width: 300px;
+	text-align: center;
+}
+
+.vision-items {
+	font-size: 200px;
+}
+
+#note {
+	font-size: 150px;
+	margin-top: 50px;
+	margin-left: 10px;
+}
+
+#film {
+	font-size: 150px;
+	margin-top: 50px;
+	margin-right: 8px;
+}
+
+#mic {
+	font-size: 150px;
+	margin-top: 50px;
+	margin-left: 10px;
+}
+
+#paint {
+	font-size: 150px;
+	margin-top: 50px;
+	margin-left: 20px;
+}
+
+#dancer {
+	margin-top: 50px;
+	opacity: 0.7;
+}
+
+#drama {
+	margin-top: 60px;
+}
+
+/*THIS IS FOR THE-TEAM.HTML*/
+
+.bios {
+	text-align: left;
+	width: 320px;
+}
+
+/*THIS IS FOR JOIN*/
+.mail-icon {
+	font-size: 100px;
+	color: #ED8F03;
+	display: block;
+	text-align: center;
+	border: none;
+}
+
+.mail-icon:hover {
+	font-size: 220px;
+	transition: ease 0.5s;
+
+}
+
+.removing {
+  text-decoration: none; 
+}
+
+.removing:hover, .removing:active, .removing:focus, .removing:visited  { 
+	text-decoration: none;
+}
+
+.doesthiswork {
+	font-size: 40px;
+	line-height: 50px;
+}
+
+/*THIS IS FOR EVENTS.HTML*/
+
+.containing-box {
+	display: flex;
+	align-items: stretch;
+    width: 100%;
+    height: 800px;
+    background-color: lightgrey;
+}
+
+.vertical-text {
+	list-style: none;
+	font-size: 40px;
+	text-align: center;
+	margin-right: 40px;
+}
+
+.links:hover {
+	text-decoration: none;
+}
+
+.event-descriptions {
+	width: 550px;
+}
+
+.nocturne-pic {
+	width: 100%;
+	height: 450px;
+	margin-top: -20px;
+}
+
+.deb {
+	margin-top: -40px;
+}
+
+.hack-pic {
+	width: 100%;
+	margin-top: -40px;
+}
+
+
+.pic-portfolio {
+	display: inline-block;
+	margin: 5px 5px 5px 5px;
+}
+
+.boxerino {
+	width: 25%;
+}
+
+.boxerino:hover {
+	border: solid 4px;
+	/*opacity: 0.7;*/
+}
+
+.designs {
+	width: 25%;
+}
+
+/*Nocturne*/
+
+.back-right {
+	display: flex;
+	overflow: none;
+	opacity: 0.2;
+	position: fixed;
+	top: -60%;
+	left: 55%;
+	background-repeat: none;
+	z-index: -1;
+}
+
+.back-left {
+	display: flex;
+	overflow: none;
+	opacity: 0.2;
+	position: fixed;
+	top: 60%;
+	left: -15%;
+	background-repeat: none;
+	z-index: -1;
+}
+
+/*FOR COFFEHOUSE*/
+
+.coffeehouse-pic {
+	display: inline-block;
+	margin: -20px 10px 0 15px;
+}
+
+#huh {
+	border: solid;
+	height: 300px;
+	width: 300px;
+	
+}
+
+/*THIS IS FOR SPONSOR PAGE*/
+
+.sponsor-title {
+	font-size: 30px;
+}
+
+.sponsor-text {
+	font-size: 20px;
+}
+
+
+/*THIS IS FOR Contact.html*/
+
+.facebook {
+	display: inline-block;
+	margin-left: 60px;
+}
+
+.twitter {
+	display: inline-block;
+	margin-left: 60px;
+}
+
+.instagram {
+	display: inline-block;
+	margin-left: 60px;
+}
+
+.snapchat {
+	display: inline-block;
+	margin-left: 60px;
+}
+
+
+
+#popup {
+	width:300px;
+	height:200px;
+	display:none;
+	font-size: 25px;
+	margin-left: 200px;
+}
+
+.send-msg {
+	text-align: center;
+}
+
+.meh:hover {
+	opacity: 0.3;
+}
+
+.um {
+	text-align: center;
+}
+
+.aiya {
+	font-size: 45px;
+}
+
+.bro {
+	position: relative;
+	left: 9.5%;
+}
+
+.the-overflow-1 {
+	z-index: 1;
+}
+
+.the-overflow-2 {
+	z-index: 2;
+}
+
+.the-overflow-3 {
+	z-index: 3;
+}
+
+.the-overflow-4 {
+	z-index: 4;
+}
+
+.move-up {
+	margin-top: -20px;
+}
+
+.pics-button {
+	padding: 10px;
+	background-color: 
+}
+
+.move-more {
+	margin-top: -50px;
+}
+
+/* FML RESPONSIVE TIME */
+
+
+
+@media (max-width: 480px) {
+
+	.council-name {
+		font-size: 30px;
+	}
+
+	.the-vid {
+		width: 350px;
+		height: 197px;
+	}
+}
+
+@media (min-width: 481px) {
+	.the-vid {
+		width: 600px;
+		height: 338px;
+	}
+}
+
+@media (min-width: 800px) {
+	.the-vid {
+		width: 900px;
+		height: 506px;
+	}
+
+	/*.dafaq {
+		display: inline-block;
+		height: 230px;
+		width: 230px;
+		margin-left: 30px;
+	}*/
+
+}
+
+/*TO SOLVE WHO WE ARE*/
+
+@media (min-width: 1024px) {
+	.the-vid {
+		width: 1200px;
+		height: 675px;
+	}
+}
+
+@media (max-width: 1199px) {
+	.bios {
+		width: 200px;
+	}
+
+	.sponsor-text {
+		line-height: 40px;
+	}
+}
+
+@media (max-width: 765px) {
+	.bios {
+		width: 290px;
+	}
+
+	.mmm {
+		margin-bottom: 50px;
+	}
+}
+
+
+@media (max-width: 1200px) {
+	.facebook, .snapchat, .instagram, .twitter {
+		width: 150px;
+	}
+}
+
+@media (max-width: 994px) {
+	.facebook, .snapchat, .instagram, .twitter {
+		width: 100px;
+	}
+}
+
+@media (max-width: 705px) {
+	.facebook, .snapchat, .instagram, .twitter {
+		width: 75px;
+		margin-left: 5px;
+	}
+}
+
+@media (max-width: 365px) {
+	.facebook, .snapchat, .instagram, .twitter {
+		width: 65px;
+		margin-left: 3px;
+	}
+}
+
+@media (max-width: 1055px) {
+	.event-descriptions {
+		width: 305px;
+	}
+}
+
+@media (max-width: 1028px) {
+	.memaw {
+		margin-top: 20px;
+	}
+}
+
+@media (max-width: 693px) {
+	.wala {
+		margin-top: 20px;
+	}
+
+	.coffeehouse-pic {
+		position: relative;
+		left: 12%;
+	}
+
+	.mans {
+		position: relative;
+		left: 21%;
+	}
+}
+
+@media (max-width: 512px) {
+	.mans {
+		position: relative;
+		left: 0;
+	}
+
+	.event-descriptions {
+		width: 295px;
+	}
+
+	.coffeehouse-pic {
+		position: relative;
+		left: -15%;
+	}
+}
+
+@media (max-width: 320px) {
+	html {
+		width: 320px;
+	}
+}
+
+@media (max-width: 991px) {
+
+	.title-statement {
+		width: 200px;
+	}
+
+	.mission-statements {
+		width: 200px;
+	}
+
+	.leave {
+		display: none;
+	}
+
+	.dafaq {
+		margin-left: -10px;
+	}
+}
+
+
+@media (max-width: 767px) {
+	.plz {
+		margin-left: 200px;
+	}
+
+	.mission-statements {
+		margin-left: 25px;
+	}
+
+	.title-statement {
+		margin-left: 21px;
+	}
+
+	.the-others {
+		display: inline-block;
+		margin-left: none;
+	}
+}
+
+@media (max-width: 581px) {
+	.plz {
+		margin-left: 0;
+	}
+
+	.dafaq {
+		margin-left: -1px;
+	}
+}
+
+@media (max-width: 867px) {
+	.too-much {
+		display: none;
+	}
+
+	.the-others {
+		margin-left: 70px;
+	}
+}
+
+@media (max-width: 473px) {
+	.the-others {
+		margin-left: 5px;
+	}
+}
+
+@media (max-width: 434px) {
+	.the-others {
+		margin-left: 50px;
+	}
+}
+

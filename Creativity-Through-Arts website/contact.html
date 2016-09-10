@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Contact - CTA</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Courgette|Open+Sans:700i|Roboto:300" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+	<!-- Styling the logo and the hamburger nav-menu -->
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <div id="logo-box">
+	      	<a class="navbar-brand" href="index.html"><img src="http://creativitythrougharts.weebly.com/uploads/4/1/8/3/41831053/1414679765.png" alt="Creativity Through Arts logo" style="width:60px; height:60px;"></a>
+	      </div>
+	    </div>
+
+
+<!-- WHEN OVER WILL MAKE THE STUFF CHANGE COLOR, THE ID CENTERED-ITEM WILL MAKE THE ACTIVE TAB HAVE BORDER FOR DIFFERENTIATION -->
+	    <div class="collapse navbar-collapse" id="myNavbar">
+	      <ul class="nav navbar-nav navbar-right">
+	        <li class="dropdown when-hover um">
+	          <a class="dropdown-toggle" data-toggle="dropdown" href="#">About Us <span class="caret"></span></a>
+	          <ul class="dropdown-menu">
+	            <li class="when-hover"><a class="centered-items" href="who-we-are.html">Who We Are</a></li>
+	            <li class="when-hover"><a class="centered-items" href="the-team.html">The Team</a></li>
+	            <li class="when-hover"><a class="centered-items" href="join.html">Join Us</a></li>
+	          </ul>
+	        </li>
+	        <li class="when-hover"><a class="centered-items" href="events.html">Events</a></li>
+	        <li class="when-hover"><a class="centered-items" href="sponsors.html">Sponsors</a></li>
+	        <li class="when-hover"><a id="centered-item" href="contact.html">Contact Us</a></li>
+	      </ul>
+
+	     <!-- LOG-IN + SIGN-IN IN CASE WE EVER NEED IT LOL  	      
+	     <ul class="nav navbar-nav navbar-right">
+	        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+	        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+	     </ul>
+		-->
+	    </div>
+	  </div>
+	</nav>
+
+<!-- The new content starts here -->
+
+<div class="back-right">
+	<img src="http://creativitythrougharts.weebly.com/uploads/4/1/8/3/41831053/1414679765.png" width="800px" height="900px">
+</div>
+<div class="back-left">
+	<img src="http://creativitythrougharts.weebly.com/uploads/4/1/8/3/41831053/1414679765.png" width="400px" height="500px">
+</div>
+
+<img class="img-responsive move-more" src="ctaaa.png">
+
+<br>
+<br>
+<br>
+<br>
+
+<div class="container">
+		<a href="https://www.facebook.com/CreativityThroughArts/">
+			<img class="img-responsive facebook" src="facebook.svg" width="200px" height="200px;">
+		</a>
+
+		<a href="https://twitter.com/CTAcouncil?lang=en">
+			<img class="img-reponsive twitter" src="twitter.svg" class="img-responsive twitter" width="200px" height="200px;">
+		</a>
+
+		<a href="https://www.instagram.com/creativitythrougharts/">
+			<img class="img-responsive instagram" src="instagram.svg" height="200px" width="200px">
+		</a>
+
+		<img class="img-circle img-responsive snapchat" src="https://i.gyazo.com/3e0665a20105ea82aead5d23ec82fa08.png" alt="https://gyazo.com/3e0665a20105ea82aead5d23ec82fa08" height="200px" width="200px">
+	</div>
+		
+</div>
+
+<br>
+
+	<div id="popup">Just Scan the QR code</div>
+
+
+<script>
+	$(document).ready(function() {
+		$(".snapchat").click(function() {
+			$("#popup").fadeIn();
+		});
+	});	
+</script>
+
+<div class="container">	
+	<a class="removing" href="mailto:info@creativitythrougharts.org?General Member Application"><span class="glyphicon glyphicon-envelope mail-icon" aria-hidden = "true" "></span></a>
+</div>
+
+<footer>
+<a class="noneplz" href="privacy.html">
+PRIVACY POLICY	
+</a>
+</footer>
+
+
+
+
